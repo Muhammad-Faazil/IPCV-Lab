@@ -3,7 +3,7 @@
 import cv2
 import matplotlib.pyplot as plt
 
-image = cv2.imread(r'D:\4SF23CI020 - IPCV\wall-39.jpg',0)
+image = cv2.imread(r'D:\4SF23CI052 - IPCV\wall-39.jpg',0)
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 gray = cv2.cvtColor(image_rgb, cv2.COLOR_RGB2GRAY)
 
